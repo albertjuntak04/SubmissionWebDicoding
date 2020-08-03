@@ -1,0 +1,43 @@
+.information-indonesia,
+.information-dunia,
+.information-prevention{
+    display: flex; 
+    flex-direction: column;
+    margin-top: 50px;
+    color: darkorange;
+}
+
+.information-dunia{
+    color: darkturquoise;
+}
+
+.step-prevention{
+    flex-direction: row;
+    display: flex;
+    margin-top: 10px;
+    /* background: deeppink; */
+   
+}
+
+.information-prevention{
+    margin-top: 10px;
+}
+
+.information-indonesia,
+.information-dunia{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.information-dunia,
+.information-indonesia span{
+    font-family: 'IBM Plex Mono',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol';
+}
+
+
+
+@media only screen and (max-width: 806px){
+   .step-prevention{
+       flex-direction: column;
+       flex-wrap: wrap-reverse;
+   }
+}

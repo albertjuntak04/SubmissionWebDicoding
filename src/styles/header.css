@@ -1,0 +1,19 @@
+/* Header/Logo Title */
+.header {
+    /* padding-left: 35px; */
+    text-align: left;
+    background-color:#22272c;
+    color: white;
+    display: flex;
+}
+
+.header img{
+    width: 80px;
+    height: 50px;
+}
+
+.header h1{
+    margin-left: 5px;
+    color: darkorchid;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}

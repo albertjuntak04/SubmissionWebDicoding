@@ -1,0 +1,81 @@
+.card-view{
+    font-size: 20px;
+    display: flex;
+    background-color: #2e343b;
+    border-radius: 6px;
+    flex-direction: column;
+    margin-right: 10px;
+    min-width: 250px;
+    min-height: 130px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.card-view span{
+    font-size: 3em;
+    color: white;
+}
+
+.information-detail{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    margin: 0px auto;
+    padding: 10px;
+    
+
+}
+
+.information-detail :hover{
+    background-color:darkslategray;
+}
+
+.card-view > #konfirmasi{
+    color: #f2c94c;
+}
+
+.card-view > #sembuh{
+    color: #219653;
+}
+
+.card-view > #meninggal{
+    color: #d8232a;
+}
+
+.card-view > #perawatan{
+    color: #f5a623;
+}
+
+@media only screen and (max-width: 930px){
+    .information-detail{
+        flex-wrap: wrap;
+    }
+
+    .card-view{
+        min-width: 350px;
+        margin-bottom: 10px;
+    }
+}
+
+@media only screen and (max-width: 806px){
+    .information-detail{
+        /* flex-wrap: nowrap; */
+    }
+
+    .card-view{
+        min-width: 320px;
+    }
+}
+
+@media only screen and (max-width: 806px){
+    .information-detail{
+        justify-content: center;
+    }
+
+    .card-view{
+        min-width: 530px;
+    }
+}
