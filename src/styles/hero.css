@@ -1,4 +1,4 @@
-.hero{
+hero-display{
     display: flex;
     flex-direction: column;
     padding-top: 10px;
@@ -10,7 +10,7 @@
   
 }
 
-.hero p{
+hero-display p{
     white-space: 10%;
     line-height: 30px;
     margin-top: 9px;

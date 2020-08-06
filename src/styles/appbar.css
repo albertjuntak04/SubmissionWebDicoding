@@ -1,18 +1,22 @@
 /* Header/Logo Title */
-.header {
+app-bar {
     /* padding-left: 35px; */
     text-align: left;
     background-color:#22272c;
     color: white;
     display: flex;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-.header img{
+app-bar img{
     width: 80px;
     height: 50px;
 }
 
-.header h1{
+app-bar h1{
     margin-left: 5px;
     color: darkorchid;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
