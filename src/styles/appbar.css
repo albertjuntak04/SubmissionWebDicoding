@@ -9,6 +9,8 @@ app-bar {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    position: fixed;
+    width: 100%;
 }
 
 app-bar img{

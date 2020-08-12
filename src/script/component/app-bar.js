@@ -9,7 +9,7 @@ class AppBar extends HTMLElement {
         this.innerHTML = `
           <img src="${this.src}"
               alt="${this.alt}">
-          <h1>aku</h1>
+          <h1>${this.caption}</h1>
       `;
     }
 }
