@@ -1,6 +1,6 @@
 .information-indonesia,
 .information-dunia,
-.information-prevention{
+information-prevention{
     display: flex; 
     flex-direction: column;
     margin-top: 50px;
@@ -19,7 +19,7 @@
    
 }
 
-.information-prevention{
+information-prevention{
     margin-top: 10px;
 }
 
