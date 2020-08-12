@@ -1,0 +1,36 @@
+{
+  "name": "covidproject",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "start-dev": "webpack-dev-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/albertjuntak04/SubmissionWebDicoding.git"
+  },
+  "author": "Albert Simanjuntak",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/albertjuntak04/SubmissionWebDicoding/issues"
+  },
+  "homepage": "https://github.com/albertjuntak04/SubmissionWebDicoding#readme",
+  "devDependencies": {
+    "@babel/core": "^7.11.1",
+    "@babel/preset-env": "^7.11.0",
+    "babel-loader": "^8.1.0",
+    "css-loader": "^4.2.0",
+    "html-webpack-plugin": "^4.3.0",
+    "style-loader": "^1.2.1",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0",
+    "webpack-merge": "^5.1.1"
+  },
+  "dependencies": {
+    "jquery": "^3.5.1",
+    "moment": "^2.27.0"
+  }
+}
