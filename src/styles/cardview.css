@@ -59,9 +59,7 @@
 }
 
 @media only screen and (max-width: 806px){
-    .information-detail{
-        /* flex-wrap: nowrap; */
-    }
+
 
     .card-view{
         min-width: 320px;
